@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05EF1FEE1F7CB3F100A4C5BC /* DelegationExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelegationExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05EF1FEE1F7CB3F100A4C5BC /* WhoisthatPokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhoisthatPokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05EF1FF11F7CB3F100A4C5BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05EF1FF61F7CB3F100A4C5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05EF1FF81F7CB3F100A4C5BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		05EF1FE51F7CB3F100A4C5BC = {
 			isa = PBXGroup;
 			children = (
-				05EF1FF01F7CB3F100A4C5BC /* DelegationExercise */,
+				05EF1FF01F7CB3F100A4C5BC /* WhoisthatPokemon */,
 				05EF1FEF1F7CB3F100A4C5BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		05EF1FEF1F7CB3F100A4C5BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05EF1FEE1F7CB3F100A4C5BC /* DelegationExercise.app */,
+				05EF1FEE1F7CB3F100A4C5BC /* WhoisthatPokemon.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		05EF1FF01F7CB3F100A4C5BC /* DelegationExercise */ = {
+		05EF1FF01F7CB3F100A4C5BC /* WhoisthatPokemon */ = {
 			isa = PBXGroup;
 			children = (
 				05EF1FF11F7CB3F100A4C5BC /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				05EF20091F7D7FD700A4C5BC /* PokemonDisplayViewController.swift */,
 				05EF20071F7D7F5D00A4C5BC /* Pokemon.swift */,
 			);
-			path = DelegationExercise;
+			path = WhoisthatPokemon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05EF1FED1F7CB3F100A4C5BC /* DelegationExercise */ = {
+		05EF1FED1F7CB3F100A4C5BC /* WhoisthatPokemon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05EF20001F7CB3F100A4C5BC /* Build configuration list for PBXNativeTarget "DelegationExercise" */;
+			buildConfigurationList = 05EF20001F7CB3F100A4C5BC /* Build configuration list for PBXNativeTarget "WhoisthatPokemon" */;
 			buildPhases = (
 				05EF1FEA1F7CB3F100A4C5BC /* Sources */,
 				05EF1FEB1F7CB3F100A4C5BC /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = DelegationExercise;
+			name = WhoisthatPokemon;
 			productName = DelegationExercise;
-			productReference = 05EF1FEE1F7CB3F100A4C5BC /* DelegationExercise.app */;
+			productReference = 05EF1FEE1F7CB3F100A4C5BC /* WhoisthatPokemon.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 05EF1FE91F7CB3F100A4C5BC /* Build configuration list for PBXProject "DelegationExercise" */;
+			buildConfigurationList = 05EF1FE91F7CB3F100A4C5BC /* Build configuration list for PBXProject "WhoisthatPokemon" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05EF1FED1F7CB3F100A4C5BC /* DelegationExercise */,
+				05EF1FED1F7CB3F100A4C5BC /* WhoisthatPokemon */,
 			);
 		};
 /* End PBXProject section */
@@ -284,9 +284,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F7AL96RPTB;
-				INFOPLIST_FILE = DelegationExercise/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WhoisthatPokemon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = MakeSchool.DelegationExercise;
+				PRODUCT_BUNDLE_IDENTIFIER = MakeSchool.Whoisthatpokemon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,9 +299,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F7AL96RPTB;
-				INFOPLIST_FILE = DelegationExercise/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WhoisthatPokemon/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = MakeSchool.DelegationExercise;
+				PRODUCT_BUNDLE_IDENTIFIER = MakeSchool.Whoisthatpokemon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05EF1FE91F7CB3F100A4C5BC /* Build configuration list for PBXProject "DelegationExercise" */ = {
+		05EF1FE91F7CB3F100A4C5BC /* Build configuration list for PBXProject "WhoisthatPokemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05EF1FFE1F7CB3F100A4C5BC /* Debug */,
@@ -320,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05EF20001F7CB3F100A4C5BC /* Build configuration list for PBXNativeTarget "DelegationExercise" */ = {
+		05EF20001F7CB3F100A4C5BC /* Build configuration list for PBXNativeTarget "WhoisthatPokemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05EF20011F7CB3F100A4C5BC /* Debug */,

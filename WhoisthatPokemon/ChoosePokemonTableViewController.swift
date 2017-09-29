@@ -44,7 +44,10 @@ class ChoosePokemonTableViewController: UITableViewController {
         let selectedPokemon = pokemons[indexPath.row]
         
         
-        // TODO:  You will want to inform your delegate here that a pokemon was selected
+        // TODO:  You will want to inform your delegate HERE that a pokemon was selected
+        
+        
+        self.navigationController?.popViewController(animated: true)
     }
 
 }
