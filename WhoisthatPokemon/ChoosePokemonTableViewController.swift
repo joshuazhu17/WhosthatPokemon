@@ -7,12 +7,14 @@
  Inform the PokemonDisplayController that the user has choosed a pokemon through a delegate
 */
 
+
 import UIKit
 
 class ChoosePokemonTableViewController: UITableViewController {
 
     var pokemons: [Pokemon] = []
     var selectedPokemon: Pokemon?
+    var pokeDelegate: PokeDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,9 +45,8 @@ class ChoosePokemonTableViewController: UITableViewController {
         
         let selectedPokemon = pokemons[indexPath.row]
         
-        
         // TODO:  You will want to inform your delegate HERE that a pokemon was selected
-        
+        pokeDelegate?.didSelectPokemon(pokemon: selectedPokemon)
         
         self.navigationController?.popViewController(animated: true)
     }
